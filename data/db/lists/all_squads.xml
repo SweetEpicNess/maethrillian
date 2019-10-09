@@ -18,6 +18,7 @@
         <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
         <Units>
             <Unit count="1" role="normal">creep_tracking_unit</Unit>
+            <Unit count="1" role="normal">cov_air_banshee_01_base</Unit>
         </Units>
         <Flag>Repairable</Flag>
         <Flag>Chatter</Flag>
