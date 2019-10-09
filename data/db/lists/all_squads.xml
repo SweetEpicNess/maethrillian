@@ -1,4 +1,37 @@
 <Squads>
+    <Squad name="creep_tracking_unit" dbid="1674939665581428136">
+        <CombatRank>1</CombatRank>
+        <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_flamemarine</PortraitIcon>
+        <MinimapScale>1</MinimapScale>
+        <DisplayNameID>3068</DisplayNameID>
+        <RolloverTextID>3069</RolloverTextID>
+        <RoleTextID>503</RoleTextID>
+        <PrereqTextID>231</PrereqTextID>
+        <SubSelectSort>1200</SubSelectSort>
+        <LeashDistance>35</LeashDistance>
+        <LeashDeadzone>6</LeashDeadzone>
+        <LeashRecallDelay>2500</LeashRecallDelay>
+        <MinimapIcon size="8">Circle</MinimapIcon>
+        <AIAttackRank>1.5</AIAttackRank>
+        <HPBar offset="0,5.535,0">UNSC_Health</HPBar>
+        <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+        <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+        <Units>
+            <Unit count="1" role="normal">creep_tracking_unit</Unit>
+        </Units>
+        <Flag>Repairable</Flag>
+        <Flag>Chatter</Flag>
+        <Flag>KBAware</Flag>
+        <Selection>
+            <ConformToTerrain>true</ConformToTerrain>
+            <AlignToCamera>true</AlignToCamera>
+            <StencilType>All</StencilType>
+            <WriteToMergeStencil>True</WriteToMergeStencil>
+        </Selection>
+        <Birth>Trained</Birth>
+        <AvoidanceMass>Light</AvoidanceMass>
+        <Counters>Hellbringers_01</Counters>
+    </Squad>
     <Squad name="Flood" dbid="11545679860153930939">
     </Squad>
     <Squad name="FlyingFlood" dbid="16256726101795934130">

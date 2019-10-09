@@ -18,6 +18,7 @@
         <StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
         <StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_generic_marine</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_generic_marine</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="40,0,0">creep_tracking_unit</StartingSquad>
         <RallyPointOffset>50,0,0</RallyPointOffset>
         <RepairRate>1</RepairRate>
         <RepairDelay>20</RepairDelay>
@@ -43,6 +44,7 @@
         <StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
         <StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_generic_marine</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_generic_marine</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="40,0,0">creep_tracking_unit</StartingSquad>
         <RallyPointOffset>50,0,0</RallyPointOffset>
         <RepairRate>1</RepairRate>
         <RepairDelay>20</RepairDelay>
@@ -68,6 +70,7 @@
         <StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
         <StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_generic_marine</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_generic_marine</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="40,0,0">creep_tracking_unit</StartingSquad>
         <RallyPointOffset>50,0,0</RallyPointOffset>
         <RepairRate>1</RepairRate>
         <RepairDelay>20</RepairDelay>
@@ -95,6 +98,7 @@
         <StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_generic_grunt</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_generic_grunt</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,20">cov_inf_generic_grunt</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="40,0,0">creep_tracking_unit</StartingSquad>
         <RallyPointOffset>50,0,0</RallyPointOffset>
         <RepairRate>1</RepairRate>
         <RepairDelay>20</RepairDelay>
@@ -123,6 +127,7 @@
         <StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_generic_grunt</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_generic_grunt</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,20">cov_inf_generic_grunt</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="40,0,0">creep_tracking_unit</StartingSquad>
         <RallyPointOffset>50,0,0</RallyPointOffset>
         <RepairRate>1</RepairRate>
         <RepairDelay>20</RepairDelay>
@@ -152,6 +157,7 @@
         <StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_generic_arbitergruntsquad</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_generic_arbitergruntsquad</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_generic_arbitergruntsquad</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="40,0,0">creep_tracking_unit</StartingSquad>
         <RallyPointOffset>50,0,0</RallyPointOffset>
         <RepairRate>1</RepairRate>
         <RepairDelay>20</RepairDelay>
@@ -301,6 +307,7 @@
         <StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
         <StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_generic_marine</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_generic_marine</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="40,0,0">creep_tracking_unit</StartingSquad>
         <RallyPointOffset>50,0,0</RallyPointOffset>
         <RepairRate>1</RepairRate>
         <RepairDelay>20</RepairDelay>
@@ -327,6 +334,7 @@
         <StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
         <StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_generic_marine</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_generic_marine</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="40,0,0">creep_tracking_unit</StartingSquad>
         <RallyPointOffset>50,0,0</RallyPointOffset>
         <RepairRate>1</RepairRate>
         <RepairDelay>20</RepairDelay>
@@ -353,6 +361,7 @@
         <StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_generic_grunt</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_generic_grunt</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,20">cov_inf_generic_grunt</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="40,0,0">creep_tracking_unit</StartingSquad>
         <RallyPointOffset>50,0,0</RallyPointOffset>
         <RepairRate>1</RepairRate>
         <RepairDelay>20</RepairDelay>
@@ -380,6 +389,7 @@
         <StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
         <StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_generic_marine</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_generic_marine</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="40,0,0">creep_tracking_unit</StartingSquad>
         <RallyPointOffset>50,0,0</RallyPointOffset>
         <RepairRate>1</RepairRate>
         <RepairDelay>20</RepairDelay>
@@ -406,6 +416,7 @@
         <StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_generic_arbitergruntsquad</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_generic_arbitergruntsquad</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_generic_arbitergruntsquad</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="40,0,0">creep_tracking_unit</StartingSquad>
         <RallyPointOffset>50,0,0</RallyPointOffset>
         <RepairRate>1</RepairRate>
         <RepairDelay>20</RepairDelay>
@@ -433,6 +444,7 @@
         <StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
         <StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_generic_marine</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_generic_marine</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="40,0,0">creep_tracking_unit</StartingSquad>
         <RallyPointOffset>50,0,0</RallyPointOffset>
         <RepairRate>1</RepairRate>
         <RepairDelay>20</RepairDelay>
@@ -460,6 +472,7 @@
         <StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
         <StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_generic_marine</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_generic_marine</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="40,0,0">creep_tracking_unit</StartingSquad>
         <RallyPointOffset>50,0,0</RallyPointOffset>
         <RepairRate>1</RepairRate>
         <RepairDelay>20</RepairDelay>
@@ -489,6 +502,7 @@
         <StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_gruntswarm_01</StartingSquad>
         <StartingSquad FlyIn="false" Offset="50,0,-10">cov_inf_gruntswarm_01</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,10">cov_inf_gruntswarm_01</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="40,0,0">creep_tracking_unit</StartingSquad>
         <RallyPointOffset>50,0,0</RallyPointOffset>
         <RepairRate>1</RepairRate>
         <RepairDelay>20</RepairDelay>
@@ -517,6 +531,7 @@
         <StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_generic_grunt</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_generic_grunt</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,20">cov_inf_generic_grunt</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="40,0,0">creep_tracking_unit</StartingSquad>
         <RallyPointOffset>50,0,0</RallyPointOffset>
         <RepairRate>1</RepairRate>
         <RepairDelay>20</RepairDelay>
@@ -545,6 +560,7 @@
         <StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_generic_grunt</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_generic_grunt</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,20">cov_inf_generic_grunt</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="40,0,0">creep_tracking_unit</StartingSquad>
         <RallyPointOffset>50,0,0</RallyPointOffset>
         <RepairRate>1</RepairRate>
         <RepairDelay>20</RepairDelay>
