@@ -14,9 +14,9 @@
 	<server_url platform="xboxone" sandbox="CERT" server_url="https://settings-certone.test.svc.halowaypoint.com/settings/hw2xods/ed609f88-19d6-4f1e-b052-4b4ba4ef232c" />
 	<server_url platform="pc" sandbox="CERT.DEBUG" server_url="https://settings-certone.test.svc.halowaypoint.com/settings/hw2pcds/23c23532-94c6-4e13-9096-7d1d1bfbb360" />
 	<server_url platform="xboxone" sandbox="CERT.DEBUG" server_url="https://settings-certone.test.svc.halowaypoint.com/settings/hw2xods/ed609f88-19d6-4f1e-b052-4b4ba4ef232c" />
-	<server_url platform="pc" sandbox="RETAIL" server_url="https://settings-certone.test.svc.halowaypoint.com/settings/hw2pcds/23c23532-94c6-4e13-9096-7d1d1bfbb360" />
+	<server_url platform="pc" sandbox="RETAIL" server_url="https://settings-strategy.test.svc.halowaypoint.com/settings/hw2xods/ed609f88-19d6-4f1e-b052-4b4ba4ef232c" />
 	<server_url platform="xboxone" sandbox="RETAIL" server_url="https://settings-certone.test.svc.halowaypoint.com/settings/hw2xods/ed609f88-19d6-4f1e-b052-4b4ba4ef232c" />
-	<server_url platform="pc" sandbox="DEFAULT" server_url="https://settings-certone.test.svc.halowaypoint.com/settings/hw2pcds/23c23532-94c6-4e13-9096-7d1d1bfbb360" />
+	<server_url platform="pc" sandbox="DEFAULT" server_url="https://settings-strategy.test.svc.halowaypoint.com/settings/hw2xods/ed609f88-19d6-4f1e-b052-4b4ba4ef232c" />
 	<server_url platform="xboxone" sandbox="DEFAULT" server_url="https://settings-certone.test.svc.halowaypoint.com/settings/hw2xods/ed609f88-19d6-4f1e-b052-4b4ba4ef232c" />
 	<xsts_endpoints>
 		<xsts_endpoint sandbox="DEFAULT">https://dummy-xsts-host.test.svc.halowaypoint.com</xsts_endpoint>
