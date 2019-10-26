@@ -72,6 +72,100 @@
 		<Filter>Heavy</Filter>
 	</Weapon>
 	<Weapon>
+		<Name>CryoRay</Name>
+		<AttackRate>0.125</AttackRate>
+		<DamagePerSecond>33.00</DamagePerSecond>
+		<WeaponType>ChainGun</WeaponType>
+		<Projectile>fx_proj_pegasus_cryobeam</Projectile>
+		<ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<Hardpoint>MGTurret</Hardpoint>
+		<MaxRange>40</MaxRange>
+		<Accuracy>0.10</Accuracy> 
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>0.10</MovingAccuracy>
+		<MovingMaxDeviation>2.0</MovingMaxDeviation>
+		<TargetPriority type="GroundVehicle">10.0</TargetPriority>
+		<TargetPriority type="Aircraft">9.0</TargetPriority>
+		<TargetPriority type="TurretBuilding">7.0</TargetPriority>
+		<TargetPriority type="Infantry">6.0</TargetPriority>
+		<TargetPriority type="Building">5.0</TargetPriority>
+		<Chill Amount="0.5" TargetType="Unit" SingleTarget="true"/>
+		<Chill Amount="1.5" TargetType="CryoBuilding" SingleTarget="true"/>
+		<Chill Amount="1.5" TargetType="TurretBuilding" SingleTarget="true"/>
+	</Weapon>
+	<Weapon>
+		<Name>Flamer</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>87</DamagePerSecond>   
+		<WeaponType>KinsanoWarthogFire</WeaponType>
+		<Projectile>fx_proj_flamerBeam_01</Projectile>
+		<MaxVelocityLead>27.675</MaxVelocityLead>
+		<MaxRange>35.0</MaxRange>
+		<MaxRangeThresholdFactor>1.1</MaxRangeThresholdFactor>
+		<MaxRangeThresholdTime>1.0</MaxRangeThresholdTime>
+		<Accuracy>0.10</Accuracy> 
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>0.1</MovingAccuracy>
+		<MovingMaxDeviation>2.0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>MGTurret</Hardpoint>
+		<TargetPriority type="Infantry">9.0</TargetPriority>
+		<TargetPriority type="TurretBuilding">6.0</TargetPriority>
+		<TargetPriority type="GroundVehicle">3.0</TargetPriority>
+		<TargetPriority type="Building">1.0</TargetPriority>
+		<TargetPriority type="Aircraft">-1.0</TargetPriority>  
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>3.0</Width>
+				<DamageRatio>100.0</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4</Radius>
+				<DamageRatio>100.0</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.6</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+		<Filter>Medium</Filter>
+	</Weapon>
+	<Weapon>
+		<Name>RightMissilePod</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>90</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_engmissile_01</Projectile>
+		<ImpactEffect size="Medium">MissileImpact</ImpactEffect>
+		<MaxVelocityLead>9.225</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>1.00</Accuracy> 
+		<MaxDeviation>4.0</MaxDeviation>
+		<MovingAccuracy>1.0</MovingAccuracy>
+		<MovingMaxDeviation>6.0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Flying">10.0</TargetPriority> 
+		<TargetPriority type="GroundVehicle">7.0</TargetPriority>   
+		<TargetPriority type="Infantry">4.0</TargetPriority>       
+		<TargetPriority type="Building">1.0</TargetPriority>
+		<Hardpoint>RightMissilePod</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>2</PostAttackCooldownMin>
+		<PostAttackCooldownMax>3.5</PostAttackCooldownMax>
+		<Filter>Heavy</Filter>
+	</Weapon>
+	<Weapon>
 		<Name>SpecialAttack</Name>
 		<AttackRate>45</AttackRate>
 		<DamagePerSecond>2000</DamagePerSecond>
@@ -176,6 +270,41 @@
 		<Strafing maxDistance="20" turnRate="90" trackingSpeed="40" jitter="20" />
 	</Action>
 	<Action>
+		<Name>CryoAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>CryoAttack</Anim>
+		<Duration DurationSpread="1.5">3</Duration>
+		<Weapon>CryoRay</Weapon>
+		<Beam collideWithUnits="false" collideWithTerrain="true" />
+		<SlaveAttackAction>CannonAttackAction</SlaveAttackAction>
+		<Strafing maxDistance="45.0" turnRate="360.0" trackingSpeed="40.0" jitter="20.0" />
+		<PersistBetweenOpps />
+		<LoopAttackAnim />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>FlameAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FlameAttack</Anim>
+		<Duration DurationSpread="1.5">3</Duration>
+		<Weapon>Flamer</Weapon>
+		<Beam collideWithUnits="false" collideWithTerrain="true" />
+		<SlaveAttackAction>CannonAttackAction</SlaveAttackAction>
+		<Strafing maxDistance="45.0" turnRate="360.0" trackingSpeed="40.0" jitter="20.0" />
+		<PersistBetweenOpps />
+		<LoopAttackAnim/>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>RightMissilePodAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RightMissileAttack</Anim>
+		<Weapon>RightMissilePod</Weapon>
+		<DontCheckOrientTolerance />
+		<CanOrientOwner>false</CanOrientOwner>
+		<StartDisabled />
+	</Action>
+	<Action>
 		<Name>SpecialAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>SpecialCannonAttack</Anim>
@@ -240,6 +369,22 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>MachinegunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>CryoAttackAction</Action>
+			<AutoTargetSquadMode>Normal</AutoTargetSquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>FlameAttackAction</Action>
+			<AutoTargetSquadMode>Normal</AutoTargetSquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RightMissilePodAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
