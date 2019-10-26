@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="infectedmarine_01">
+	<model name="infectedmarine_01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2\pack1\units\flood\infantry\infectedmarine01_rocketlauncher_combined\mesh_infectedmarine_01</file>
+			</asset>
+		</component>
+	</model>
+</visual>
