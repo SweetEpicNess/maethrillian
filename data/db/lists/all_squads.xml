@@ -9693,6 +9693,30 @@
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
 	</Squad>
+	<Squad name="unsc_veh_cryoscorpion_01" parent_element="unsc_veh_scorpion_01_base" dbid="16668385020543003166">
+		<BuildPoints>38</BuildPoints>
+		<Cost ResourceType="Supplies">500</Cost>
+		<Cost ResourceType="Power">160</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
+		<HealValue>2.20000005</HealValue>
+		<FrozenThreshold>300</FrozenThreshold>
+		<ChillDecayPerSecond>60</ChillDecayPerSecond>
+		<Units override_type="absolute">
+			<Unit count="1" role="normal">unsc_veh_cryoscorpion_01</Unit>
+		</Units>
+	</Squad>
+	<Squad name="unsc_veh_flamescorpion_01" parent_element="unsc_veh_scorpion_01_base" dbid="16668385020543003166">
+		<BuildPoints>38</BuildPoints>
+		<Cost ResourceType="Supplies">645</Cost>
+		<Cost ResourceType="Power">15</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
+		<HealValue>2.5</HealValue>
+		<FrozenThreshold>300</FrozenThreshold>
+		<ChillDecayPerSecond>60</ChillDecayPerSecond>
+		<Units override_type="absolute">
+			<Unit count="1" role="normal">unsc_veh_flamescorpion_01</Unit>
+		</Units>
+	</Squad>
 	<Squad name="unsc_veh_scorpion_01_sp" parent_element="unsc_veh_scorpion_01_base" dbid="16639652582680270064" />
 	<Squad name="unsc_veh_serina_hero_01" dbid="12189883730253677644">
 		<CombatRank>6</CombatRank>
