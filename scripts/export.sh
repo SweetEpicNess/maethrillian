@@ -10,7 +10,7 @@ rm -rf ${OUT_DIR}
 
 for SRCDIR in ${DUMP_DIR}/data/db/lists ${DUMP_DIR}/data/db/tactics ${DUMP_DIR}/data/db/text/english
 do
-    for FILE in $(find ${SRCDIR} -type f | egrep '\.(xml|tactics)\.xmb')
+    for FILE in $(find ${SRCDIR} -type f | egrep '\.(xml|tactics|vis)\.xmb')
     do
         REL_FILE=$(realpath --relative-to=${DUMP_DIR} ${FILE})
         REL_FILE_PREFIX=${REL_FILE%.xmb}
